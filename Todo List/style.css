@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 3rem 0;
+    background: linear-gradient(45deg, blue, red);
+    color: #fff;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem 0;
+}
+
+
+
+form input{
+    width: 250px;
+    padding: 0.3rem 0.6rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form input::placeholder{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form button{
+    padding: 0.3rem;
+    background: none;
+    border: 0;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    color: #fff;
+}
+
+#todo-list{
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#todo-list li{
+    min-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#todo-list i{
+    margin: 0 3px;
+    padding: 3px 5px;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    font-weight: 900;
+    font-size: 18px;
+}
